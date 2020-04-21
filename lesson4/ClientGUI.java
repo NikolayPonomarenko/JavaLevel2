@@ -57,7 +57,7 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         log.setWrapStyleWord(true);
         log.setEditable(false);
         cbAlwaysOnTop.addActionListener(this);
-
+        tf
         btnSend.addActionListener(this); // Listens for button clicks
         panelTop.add(tfMessage);
         panelTop.add(btnSend);
